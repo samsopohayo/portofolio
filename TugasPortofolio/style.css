@@ -1,0 +1,156 @@
+/*header*/
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile{
+    width: 50x;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -3px;
+    margin-right: 8px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+/*navbar*/
+nav{
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*body*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    font:
+        0.9em/1.2 Arial,
+        Helvetica,
+        sans-serif;
+}
+
+aside {
+    border-left: 2px solid #999;
+    grid-area: sidebar;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+button{
+    background-color: #5a9ae9;
+    border-radius: 5px;
+}
+
+/*container*/
+.container {
+    display: grid;
+    grid-template-areas:
+        "sidebar content";
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    background-color: aliceblue;
+}
+
+.articles {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: inherit;
+}  
+
+#about {
+    padding: 0px 5px 20px 20px;
+}
+
+#projects {
+    padding: 0px 20px 20px 0px;
+}
+
+#projects h2 {
+    padding: 0px 0px 0px 15px;
+}
+
+article {
+    padding: 10px;
+    border: 2px solid rgb(79 185 227);
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/*card*/
+.card{
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.isicard{
+    background-color: aqua;
+    padding: 2px 5px 4px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#contact {
+    padding: 5px 20px 5px 20px;
+}
+
+#contact a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*footer*/
+footer #contact {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    padding: 10px;
+}
+
+.cw {
+    background-color: rgb(3, 3, 3);
+    color: #fff;
+    padding: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+
